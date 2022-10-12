@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --azul-agua: #143f4b;
+    --celeste-cielo: #568ec6;
+    --blanco-nube: #dbdae0;
+    --roca-sombra: #232738;
+    --negro: #000;
+    --blanco: #fff;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Oxygen', sans-serif;
+}
+
+header .header_container-imgFondo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    height: 280px;
+    background-image: url(https://mendohardware.com.ar/img/aguaDelToroImg/cover-fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+header .header_container-imgFondo h1 {
+    color: var(--negro);
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 0 15px;
+}
+header .header_container-imgFondo h2 {
+    color: var(--blanco);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+
+main .section_container-principal div {
+    width: 100%;
+    margin: 0px auto;
+    background-color: var(--blanco-nube);
+}
+main .section_container-principal p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 25px 15px;
+    color: var(--negro)
+}
+main .section_container-principal h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 25px 15px;
+}
+main .section_container-principal figure {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+main .section_container-principal img {
+    width: 100%;
+    border-radius: 4rem;
+    box-shadow: 0 10px 25px var(--roca-sombra);
+    margin-bottom: 1rem;
+}
